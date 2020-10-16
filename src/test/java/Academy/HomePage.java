@@ -36,6 +36,8 @@ public class HomePage extends base{
 		//one is inheritance
 		System.out.println("Clone is added with Print Statement");
 		System.out.println("Clone is added with Print Statement updated");
+		System.out.println("added branch");
+		
 
 		// creating object to that class and invoke methods of it
 		driver.get(prop.getProperty("url"));

@@ -29,6 +29,7 @@ public class validateNavigationBar extends base{
 public void initialize() throws IOException
 {
 	
+	System.out.println("Branch added");
 	 driver =initializeDriver();
 		
 	driver.get(prop.getProperty("url"));
